@@ -26,10 +26,13 @@ html {
 
 .banner {
   position: relative;
+  max-height: 23em;
 }
 
 .banner-content {
   position: absolute;
-  bottom: .5rem;
+  overflow: hidden;
+  left: 0;
+  bottom: -.1em;
   color: #fff;
 }
